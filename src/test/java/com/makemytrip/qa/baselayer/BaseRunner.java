@@ -10,6 +10,7 @@ public class BaseRunner {
 		
 		driver= new ChromeDriver();
 		driver.get("https://www.makemytrip.com/");
+		driver.manage().window().maximize();
 
 	}
 
