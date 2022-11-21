@@ -6,5 +6,6 @@ public class HomePage {
 	public HomePage()
 	{
 		System.out.println("I am in home page");
+		System.out.println("Sweet Home");
 	}
 }
