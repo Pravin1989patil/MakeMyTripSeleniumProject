@@ -1,7 +1,7 @@
 package com.makemytrip.qa.pagelayer;
 
 public class HomePage {
-
+// this is home page constructor
 	
 	public HomePage()
 	{
