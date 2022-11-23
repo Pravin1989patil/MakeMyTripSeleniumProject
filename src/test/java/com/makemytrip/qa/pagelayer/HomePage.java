@@ -5,6 +5,7 @@ public class HomePage {
 	
 	public HomePage()
 	{
+		 String address=null;
 		System.out.println("I am in home page");
 
 		System.out.println("Sweet Home");
