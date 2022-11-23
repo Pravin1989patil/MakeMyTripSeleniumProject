@@ -7,7 +7,7 @@ public class HomePage {
 	{
 
 		 String address=null;
-		 String userName;
+		 String userName1;
 		//Its home page
 
 		System.out.println("I am in home page");
