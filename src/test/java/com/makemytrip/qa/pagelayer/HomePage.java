@@ -1,16 +1,17 @@
 package com.makemytrip.qa.pagelayer;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
 public class HomePage {
 
-	
-	public HomePage()
+	@Test
+	public void HomePagetest()
 	{
-		System.out.println("I am in home page");
-
-		System.out.println("Sweet Home");
-
-		System.out.println("Its Raghav patils house");
-		System.out.println("Prabin Patil");
+		 WebDriver driver = new ChromeDriver();
+		  driver.get("https://www.letskodeit.com/");
+		  driver.manage().window().maximize();
 
 	}
 }
